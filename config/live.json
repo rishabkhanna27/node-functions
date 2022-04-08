@@ -1,0 +1,29 @@
+{
+    "heartbeat": true,
+    "PORT": 9042,
+    "databaseSettings": {
+        "MONGODB_URL" :"mongodb://localhost:27017/onBoard"
+    },
+    "twillioCredentials": {
+        "accountSid": "",
+        "authToken": "",
+        "fromNumber": ""
+    },
+    "JWT_SERVICE": {
+        "SECRET_KEY" : "ksdjfdksaslkdmjfdkslakdsfmjkdsljfdksjfdksfh"
+    },
+    "sendGrid": {
+        "sendgrid_api_key": "",
+        "fromEmail": ""
+    },
+    "fcmKey": {
+        "android": "",
+        "ios": ""
+    },
+    "exportUrl":"",
+    "apnKey":{
+        "keyId":"",
+        "teamId":"",
+        "bundleId":""
+    }
+}
